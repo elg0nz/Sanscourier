@@ -2,17 +2,17 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://sanscourier.com
+title: SansCourier
+subtitle: Who needs Messengers or Serifs?
+author: Gonzalo Maldonado
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email:gonzalo@sanscourier.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -49,11 +49,11 @@ default_asides: [asides/recent_posts.html, asides/twitter.html, asides/delicious
 # ----------------------- #
 
 # Twitter
-twitter_user:
+twitter_user:elg0nz
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
-twitter_show_follower_count: false
+twitter_show_follower_count: true
 twitter_tweet_button: true
 
 # Google Plus
@@ -61,15 +61,15 @@ google_plus_one: true
 google_plus_one_size: medium
 
 # Pinboard
-pinboard_user:
-pinboard_count: 3
+#pinboard_user:
+#pinboard_count: 3
 
 # Delicious
-delicious_user:
+delicious_user:elg0nz
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name:sanscourier
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id:UA-12478723-1
