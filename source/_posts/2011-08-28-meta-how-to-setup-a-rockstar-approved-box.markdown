@@ -154,4 +154,15 @@ simple steps? [Please thank Eric Holscher for the tip](http://ericholscher.com/b
   proc_name = "Django Revel"
   worker_class = "eventlet"
 {% endcodeblock %}
+### And make nginx forward traffic to it
+{% codeblock %}
+  server {
+          listen 80;
+          server_name  example.com;
+          access_log  /var/log/nginx/example.log;
 
+          location / {
+                  proxy_pass   http://127.0.0.1:1337;
+          }
+  }
+{% endcodeblock %}
