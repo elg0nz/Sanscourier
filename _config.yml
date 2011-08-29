@@ -61,12 +61,12 @@ google_plus_one: true
 google_plus_one_size: medium
 
 # Pinboard
-pinboard_user: elg0nz
-pinboard_count: 4
+#pinboard_user:
+#pinboard_count: 3
 
 # Delicious
 delicious_user: elg0nz
-delicious_count: 4
+delicious_count: 3
 
 # Disqus Comments
 disqus_short_name: sanscourier
