@@ -1,0 +1,9 @@
+--- 
+wordpress_id: 42
+layout: post
+title: How to center a geodjango map in the admin.site
+excerpt: "Just a quick snippet on how to center a geodjango map in the admin since I\xE2\x80\x99ve seen some confusion regarding this ticket"
+date: 2010-02-02 01:37:19 -06:00
+wordpress_url: http://sanscourier.com/?p=42
+---
+Just a quick snippet on how to center a geodjango map in the admin since I've seen some confusion regarding <a href="http://code.djangoproject.com/ticket/11094">this ticket</a><script src="http://gist.github.com/292267.js"></script>
