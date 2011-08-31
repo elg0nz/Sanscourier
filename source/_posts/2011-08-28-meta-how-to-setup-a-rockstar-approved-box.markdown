@@ -126,11 +126,19 @@ a Python guy, but who cares anyway? I was using HP before! so go and try the rig
 {% endcodeblock %}
 
 ### Write something and deploy it.
-If you have gotten this far you probably can figure it out.
-I will [leave this here for you](http://octopress.org/docs/blogging/).
-And deploy to your ~/sanscourier.com/ folder or some other safe place.
+[You shoulb probaly read this instead](http://octopress.org/docs/blogging/).
+But here's a quick intro:
+{% codeblock %}
+  $rake new_post["whatever"]
+Creating new post: source/_posts/[blah].markdown
+  $vim source/_posts/[blah].markdown #or emacs you berkeley hippie
+  $rake generate
+  $rake deploy
+{% endcodeblock %}
 
-Meet Gunicron
+Don't forget to deploy to your ~/sanscourier.com/ folder or some other safe place.
+
+Meet Gunicorn
 -------------
 Did you know you can have a production ready server for Django in four
 simple steps? [Please thank Eric Holscher for the tip](http://ericholscher.com/blog/2010/aug/16/lessons-learned-dash-easy-django-deployment/)
