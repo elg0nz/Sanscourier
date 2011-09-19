@@ -91,10 +91,17 @@ try figuring that out without using the randomart
 2048 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48 github.com,207.97.227.239 (RSA)
 {% endcodeblock %}
 
-Also if you add this to your ssh config:
+Also if you add this to your ~/.ssh/config:
 {% codeblock %}
-  CheckHostIP     fingerprint
+  VisualHostKey yes
 {% endcodeblock %}
+
+Or add this option to your ssh command 
+
+{% codeblock %}
+  $ssh -o VisualHostKey=yes your.host.name
+{% endcodeblock %}
+
 you will see your servers randomart each time you login (handy to ensure
 you are deploying to the right server, hehe).
 
