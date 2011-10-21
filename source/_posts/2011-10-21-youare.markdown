@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "YouAre"
+title: "You Are"
 date: 2011-10-21 03:59
 comments: true
-categories:thoughts 
+categories: [Thoughts] 
 ---
 You are what you prove yourself to be capable of.
