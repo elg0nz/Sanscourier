@@ -3,6 +3,6 @@ layout: post
 title: "You Are"
 date: 2011-10-21 03:59
 comments: true
-categories: [Thoughts] 
+categories: [thoughts]
 ---
 You are what you prove yourself to be capable of.
