@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "San_Francisco_Koi"
+title: "San Francisco Koi"
 date: 2012-10-09 18:41
 comments: true
 categories: [koi, san francisco, startups, entrepreneurship]
