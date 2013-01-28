@@ -11,7 +11,7 @@ categories: [koi, san francisco, startups, entrepreneurship]
 If you've ever been to San Francisco and are observant enough (or have walked down the
 right alleyways), you've likely seen these small orange fishes everywhere.
 
-{% img http://farm5.staticflickr.com/4025/5077713678_3a53a77cf9_z.jpg %}
+{% img http://farm6.staticflickr.com/5091/5460094303_85a43ee5d6_z.jpg %}
 
 The Koi fish.
 
@@ -29,4 +29,4 @@ Seeing these koi painted all around San Francisco, reminds me that this city is 
 chock full of artists, entrepreneurs, code artists, pixel dreamers all swimming around. So,
 koi of San Francisco, let’s become dragons.
 
-Photo by [Brandon Doran](http://www.flickr.com/photos/brandondoran/)
+Photo by [Jess G](http://www.flickr.com/photos/jessgarduno/)
