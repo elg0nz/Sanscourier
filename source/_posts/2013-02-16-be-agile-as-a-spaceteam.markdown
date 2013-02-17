@@ -24,7 +24,7 @@ company. The role of a tech lead most of the time is not about executing
 the tasks (though you may do so), but figuring out a way of
 communicating these instructions to your team. 
 
-"Implement a leaderboard to drive the engagement in the basic customer
+"Implement a leader board to drive the engagement in the basic customer
 segment" is an instruction as cryptic as "setting up the Finite Plexus
 to 3" and it involves Design, Engineering and Product.
 
@@ -37,7 +37,6 @@ Every Spaceteam game begins with an instruction:
 Which to me sounds like a Bill Walsh quote. 
 
 When building a team, focus on creating the right culture of trust, 
-on moving fast and on breaking things, ["The Score will take care of
-itself"](http://www.amazon.com/Score-Takes-Care-Itself-Philosophy/dp/1591843472)
+on moving fast and on breaking things, ["The Score will take care of itself"](http://www.amazon.com/Score-Takes-Care-Itself-Philosophy/dp/1591843472)
 
 Good luck Spaceteam!
