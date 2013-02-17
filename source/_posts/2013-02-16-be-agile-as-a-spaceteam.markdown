@@ -10,7 +10,7 @@ Yesterday I went out with some friends who work in tech too, and
 without asking for it, I ended up learning quite a bit about leadership
 and management on a San Francisco Friday night.
 
-[Spaceteam] (https://itunes.apple.com/us/app/spaceteam/id570510529?mt=8) is a
+[Spaceteam](https://itunes.apple.com/us/app/spaceteam/id570510529?mt=8) is a
 multiplayer iOS game with a very simple goal, 
 to keep your spaceship from falling apart while blasting trough space. 
 
