@@ -1,5 +1,5 @@
 $noise-bg: image-url('noise.png') top left !default;
-$img-border: inline-image('dotted-border.png');
+$img-border: inline-image('dotted-border.png') !default;
 
 // Main Link Colors
 $link-color: lighten(#165b94, 3) !default;
@@ -11,6 +11,7 @@ $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 $main-bg: #f8f8f8 !default;
 $page-bg: #252525 !default;
 $article-border: #eeeeee !default;
+
 $header-bg: image-url('line-tile.png') !default;
 $title-color: #f2f2f2 !default;
 $subtitle-color: #aaa !default;
@@ -34,7 +35,7 @@ $nav-border-right: lighten($nav-bg, 7) !default;
 
 /* Sidebar colors */
 $sidebar-bg: #f2f2f2 !default;
-$sidebar-link-color: $link-color !default;
+$sidebar-link-color: $text-color !default;
 $sidebar-link-color-hover: $link-color-hover !default;
 $sidebar-link-color-active: $link-color-active !default;
 $sidebar-color: change-color(mix($text-color, $sidebar-bg, 80), $hue: hue($sidebar-bg), $saturation: saturation($sidebar-bg)/2) !default;
@@ -42,7 +43,6 @@ $sidebar-border: desaturate(darken($sidebar-bg, 7), 10) !default;
 $sidebar-border-hover: darken($sidebar-bg, 7) !default;
 $sidebar-link-color-subdued: lighten($sidebar-color, 20) !default;
 $sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
-$twitter-status-link: lighten($sidebar-link-color-subdued, 15) !default;
 
 $footer-color: #888 !default;
 $footer-bg: #ccc !default;
