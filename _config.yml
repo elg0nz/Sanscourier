@@ -102,3 +102,6 @@ google_analytics_tracking_id: UA-12478723-1
 
 # Facebook Like
 facebook_like: true
+
+# Gravatar
+gravatar_email: elg0nz@gmail.com
