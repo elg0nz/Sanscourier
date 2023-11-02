@@ -1,39 +1,40 @@
-## What is Octopress?
+# SansCourier: a Post-Agile Manifesto
 
-Octopress is [Jekyll](https://github.com/mojombo/jekyll) blogging at its finest.
+## By [Gonzalo Maldonado](https://www.linkedin.com/in/gonzalo-maldonado-7991318/)
 
-1. **Octopress sports a clean responsive theme** written in semantic HTML5, focused on readability and friendliness toward mobile devices.
-2. **Code blogging is easy and beautiful.** Embed code (with [Solarized](http://ethanschoonover.com/solarized) styling) in your posts from gists, jsFiddle or from your filesystem.
-3. **Third party integration is simple** with built-in support for Pinboard, Delicious, GitHub Repositories, Disqus Comments and Google Analytics.
-4. **It's easy to use.** A collection of rake tasks simplifies development and makes deploying a cinch.
-5. **Ships with great plug-ins** some original and others from the Jekyll community &mdash; tested and improved.
+### At the crossroads of human understanding and technological advancement, we stand for nurturing creativity, fostering curiosity, and executing with unyielding authenticity.
 
-**Note**: Octopress requires a minimum Ruby version of `1.9.3-p0`.
-
-## Documentation
-
-Check out [Octopress.org](http://octopress.org/docs) for guides and documentation.
+---
 
 
-## Contributing
+Every project begins with understanding. In a world driven by numbers, algorithms, and efficiency, we prioritize human understanding. Every voice is heard, every perspective valued. We aren't just building technology; we're crafting tools that shape lives. Always remember the individuals at the other end.
 
-[![Build Status](https://travis-ci.org/imathis/octopress.png?branch=master)](https://travis-ci.org/imathis/octopress)
+## Fierce Leadership
 
-We love to see people contributing to Octopress, whether it's a bug report, feature suggestion or a pull request. At the moment, we try to keep the core slick and lean, focusing on basic blogging needs, so some of your suggestions might not find their way into Octopress. For those ideas, we started a [list of 3rd party plug-ins](https://github.com/imathis/octopress/wiki/3rd-party-plugins), where you can link your own Octopress plug-in repositories. For the future, we're thinking about ways to easier add them into our main releases.
+Leadership is our compass. Nurturing isn't passive. It's an active stand against a culture that too often prioritizes speed over quality and competition over collaboration. We advocate for environments where ideas flourish, where failures become stepping stones, and where every team member feels both empowered and appreciated.
 
+## Ignition through Curiosity
 
-## License
-(The MIT License)
+Our drive to inquire, to probe, and to understand powers our innovation. We aren't content with the status quo. We explore boundaries only to transcend them. Each "why" and "what if" thrusts us into the uncharted, and that's where brilliance emerges.
 
-Copyright © 2009-2013 Brandon Mathis
+## Distinct Vision
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ‘Software’), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+In a realm of repetition, our distinct vision is our ace. We shun one-size-fits-all approaches. Creativity isn't a mere luxury; it's imperative. In every challenge, we seek the unique, embracing both the unfamiliar and the unforeseen.
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+## Unyielding Authenticity
 
-THE SOFTWARE IS PROVIDED ‘AS IS’, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Our pledge is genuine authenticity. We forsake pretense. We despise deception. Amidst an ever-evolving virtual landscape, our authenticity stands resolute. Honesty in our words, sincerity in our deeds, and clarity in our aspirations.
 
+## Mighty Execution
 
-#### If you want to be awesome.
-- Proudly display the 'Powered by Octopress' credit in the footer.
-- Add your site to the Wiki so we can watch the community grow.
+Each line of code and every design comes with a vow of formidable execution. We bring expertise, precision, and an unwavering commitment to brilliance. Average is not in our lexicon. We aim, we accomplish, and then we elevate our standards even further.
+
+## Boundless Innovation
+
+Limitless innovation defines our horizon. Freedom defines our thoughts, actions, and creations. We defy confinements and stereotypes. We envision, and then we realize. Tech's future is boundless, mirroring our own vast potential.
+
+---
+
+## What is SansCourier?
+
+In a world overflowing with messengers, with intermediaries clouding genuine interaction, we champion a new era: one sans couriers. Because true innovation isn't just about creating; it's about connecting. Let's not merely send messages. Let's foster connections, bridge gaps, and communicate with purpose and heart.

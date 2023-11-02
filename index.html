@@ -1,0 +1,256 @@
+<!doctype html>
+<!--[if lte IE 9]>
+<html lang="en" class="oldie">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SansCourier: a Post-Agile Manifesto</title>
+  <meta property="og:title" content="SansCourier: a Post-Agile Manifesto for Fierce Empathy Driven Development" />
+  <meta property="og:description" content="At the crossroads of human understanding and technological advancement, we stand for nurturing creativity, fostering curiosity, and executing with unyielding authenticity." />
+  <meta property="og:image" content="https://res.cloudinary.com/dgbsle2eg/image/upload/v1698926486/public_assets/web/ukz6avy9cyy8u6uidayb.png" />
+  <meta property="og:url" content="https://www.sanscourier.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="SansCourier" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧑‍💻🔮</text></svg>">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  </noscript>
+  <style>
+    /* 
+CSS inspired by https://codepen.io/simoami/pen/eYrPdz
+*/
+    body {
+      font-family: "Oswald", sans-serif;
+      font-display: swap;
+      margin: 0;
+      padding: 2vh;
+      background-color: #6d7074;
+    }
+
+    .preamble {
+      color: #ffffff;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 20vh;
+      /* Adjusted to 8% of the viewport height */
+      background-color: #000000;
+      background-image: url("https://res.cloudinary.com/dgbsle2eg/image/upload/v1698926475/public_assets/web/wmpxrkqkujngp8l5sztl.png");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hero h2 {
+      color: #ffffff;
+    }
+
+    .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #ddd;
+      background-image: url("https://res.cloudinary.com/dgbsle2eg/image/upload/v1698926486/public_assets/web/ukz6avy9cyy8u6uidayb.png");
+      background-size: cover;
+      background-position: center;
+      border: 5px solid #fff;
+    }
+
+    .typing {
+      white-space: nowrap;
+      overflow: hidden;
+      animation: type 5s steps(50, end);
+    }
+
+    @keyframes type {
+      0% {
+        width: 0;
+      }
+
+      100% {
+        width: 100%;
+      }
+    }
+
+    .terminal-window {
+      text-align: left;
+      width: 100%;
+      height: 70vh;
+      border-radius: 10px;
+      margin: auto;
+      position: relative;
+    }
+
+    .terminal-window header {
+      background: #e0e8f0;
+      height: 30px;
+      border-radius: 8px 8px 0 0;
+      padding-left: 10px;
+    }
+
+    .terminal-window header .button {
+      width: 12px;
+      height: 12px;
+      margin: 10px 4px 0 0;
+      display: inline-block;
+      border-radius: 8px;
+    }
+
+    .terminal-window header .button.green {
+      background: #3bb662;
+    }
+
+    .terminal-window header .button.yellow {
+      background: #e5c30f;
+    }
+
+    .terminal-window header .button.red {
+      background: #e75448;
+    }
+
+    .terminal-window section.terminal {
+      color: white;
+      font-size: 11pt;
+      background: #30353a;
+      padding: 10px;
+      box-sizing: border-box;
+      position: absolute;
+      width: 100%;
+      top: 30px;
+      bottom: 0;
+      overflow: auto;
+    }
+
+    .terminal-window section.terminal .typed-cursor {
+      opacity: 1;
+      -webkit-animation: blink 0.7s infinite;
+      -moz-animation: blink 0.7s infinite;
+      animation: blink 0.7s infinite;
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-webkit-keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    @-moz-keyframes blink {
+      0% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .terminal-data {
+      display: none;
+    }
+
+    .terminal-window .gray {
+      color: gray;
+    }
+
+    .terminal-window .green {
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="hero">
+    <img class="avatar" src="https://res.cloudinary.com/dgbsle2eg/image/upload/v1698926486/public_assets/web/ukz6avy9cyy8u6uidayb.png" alt="SansCourier Avatar">
+  </header>
+  <main>
+    <section class="preamble">
+      <h1>SansCourier: a Post-Agile Manifesto By <a href="https://www.linkedin.com/in/gonzalo-maldonado-7991318/">Gonzalo Maldonado</a></h1>
+      <p>At the crossroads of human understanding and technological advancement, we stand for nurturing creativity, fostering curiosity, and executing with unyielding authenticity.</p>
+    </section>
+    <article class="terminal-window">
+      <header>
+        <div class="button green"></div>
+        <div class="button yellow"></div>
+        <div class="button red"></div>
+      </header>
+      <!-- Terminal content goes here... -->
+      <section class="terminal">
+        <div class="history"></div>
+        <h1 class="typing">$ cat ~/mantifesto.md </h1>
+        <h1># The Post-Agile Manifesto: Disrupting Dogma with Fierce Empathy-Driven Design</h1>
+        <p>
+          Every project begins with understanding. In a world driven by numbers, algorithms, and efficiency, we prioritize human understanding. Every voice is heard, every perspective valued. We aren't just building technology; we're crafting tools that shape lives. Always remember the individuals at the other end.
+        </p>
+  
+        <h2 class="typing">## Fierce Leadership</h2>
+        <p>
+          Leadership is our compass. Nurturing isn't passive. It's an active stand against a culture that too often prioritizes speed over quality and competition over collaboration. We advocate for environments where ideas flourish, where failures become stepping stones, and where every team member feels both empowered and appreciated.
+        </p>
+  
+        <h2 class="typing">## Ignition through Curiosity</h2>
+        <p>
+          Our drive to inquire, to probe, and to understand powers our innovation. We aren't content with the status quo. We explore boundaries only to transcend them. Each "why" and "what if" thrusts us into the uncharted, and that's where brilliance emerges.
+        </p>
+  
+        <h2 class="typing">## Distinct Vision</h2>
+        <p>
+          In a realm of repetition, our distinct vision is our ace. We shun one-size-fits-all approaches. Creativity isn't a mere luxury; it's imperative. In every challenge, we seek the unique, embracing both the unfamiliar and the unforeseen.
+        </p>
+  
+        <h2 class="typing">## Unyielding Authenticity</h2>
+        <p>
+          Our pledge is genuine authenticity. We forsake pretense. We despise deception. Amidst an ever-evolving virtual landscape, our authenticity stands resolute. Honesty in our words, sincerity in our deeds, and clarity in our aspirations.
+        </p>
+  
+        <h2 class="typing">## Mighty Execution</h2>
+        <p>
+          Each line of code and every design comes with a vow of formidable execution. We bring expertise, precision, and an unwavering commitment to brilliance. Average is not in our lexicon. We aim, we accomplish, and then we elevate our standards even further.
+        </p>
+  
+        <h2 class="typing">## Boundless Innovation</h2>
+        <p>
+          Limitless innovation defines our horizon. Freedom defines our thoughts, actions, and creations. We defy confinements and stereotypes. We envision, and then we realize. Tech's future is boundless, mirroring our own vast potential.
+        </p>
+      </section>
+    </article>
+    <section class="preamble">
+      <h2>What is SansCourier?</h2>
+      <p>In a world overflowing with messengers, with intermediaries clouding genuine interaction, we champion a new era: one sans couriers. Because true innovation isn't just about creating; it's about connecting. Let's not merely send messages. Let's foster connections, bridge gaps, and communicate with purpose and heart.</p>
+    </section>
+  </main>
+</body>
+</html>
